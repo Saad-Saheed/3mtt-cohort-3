@@ -25,9 +25,9 @@ function App() {
   return (
     <>
       <h1>My Counter</h1>
-      <d className="counter">
+      <div className="counter">
         <span>{count}</span>
-      </d>
+      </div>
       {error && <div className="error">{error}</div>}
       <div className="card">
         <button onClick={() => handleClick('+')}>
